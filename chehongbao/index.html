@@ -1,0 +1,182 @@
+<html style="font-size: 20.4267px;">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Cache-Control" content="no-transform">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="layoutmode" content="standard">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="renderer" content="webkit">
+    <title>狂欢红包来袭</title>
+    <style type="text/css">
+        #hdgg_record_button, 
+        #hdgg-record-page, 
+        #hdgg_show-win, 
+        #hdgg_show-noad, 
+        #hdgg_show-tomorrow, 
+        #hdgg_rules-wrapper,
+        #hdgg_taobao,
+        #hdgg_miniprogram_popup {
+            font-size: 1rem;
+        }
+        #hdgg_redpack {
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+
+<body style="position: relative">
+    <div class="bodydiv">
+    <div class="rule"></div>
+    <div class="jiang"></div>
+    <div class="counts">剩余免费：<span id="countZa">2</span>次</div>
+    <div class="bot_line">
+        <div class="wave"></div>
+    </div>
+    <a href="javascript:;" class="xiangziBox" style="display: inline-block;">
+        <div class="xiangzi">
+            <!-- 拆红包按钮 -->
+            <div class="starta"></div>
+        </div>
+        <div class="xiangzi2"></div>
+    </a>
+    <!-- 拆红包小手 -->
+    <div class="DB_guide"><span class="DB_G_circle"></span><span class="DB_G_hand"></span></div>
+    <!-- Swiper JS -->
+    <div class="alerty" style="z-index: 100;">
+        <div class="notice">
+        <div class="saclose"></div>
+        <h1 class="ntile1"></h1>
+        <div class="contant">
+            <h1 class="title font14">活动说明：</h1>
+            <p class="font14">参与活动即有机会获得幸运奖~每天抽奖机会8次免费。此活动为概率中奖，奖品数量有限，祝好运！</p>
+            <p>惊喜一：500元话费</p>
+            <p>惊喜二：300元话费</p>
+            <p>惊喜三：200元话费</p>
+            <p>惊喜四：随机红包</p>
+            <p>惊喜五：幸运福袋</p>
+            <h1 class="title font14">重要声明：</h1>
+            <p>1.奖品将在活动结束后5-10个工作日安排发放,请耐心等待</p>
+            <p>2.优惠券类奖品的使用规则详见每个优惠券的介绍页</p>
+            <p>3.通过非法途径获得奖品的,主办方有权不提供奖品</p>
+            <div class="moresay">中奖概率说明<i></i></div>
+            <div class="moresayp">
+            <p>•500元话费共1份，中奖概率0.001%; </p>
+            <p>•300元话费共2份,中奖概率0.002%; </p>
+            <p>•200元话费共3份,中奖概率0.003%; </p>
+            <p>•随机红包共20份,中奖概率0.02%; </p>
+            <p>•幸运福袋,中奖概率99.974%; </p>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="zhenotice"></div>
+    </div>
+
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="css/alertCommon.css">
+    <link rel="stylesheet" type="text/css" href="css/common.css?v=121324">
+    <link rel="stylesheet" type="text/css" href="css/alertBaoxiang.css">
+    <link rel="stylesheet" type="text/css" href="css/hdgg.css">
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/hdgg.js"></script>
+    <script type="text/javascript" src="js/awardRotate.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
+
+    <a id="hdgg-left-float-image" href="javascript:;" style="font-size:1rem;position:fixed;top:6.2em;left:0;z-index:99;width:3.5em;">
+        <img src="images/hdgg_zhifubao_entrance.gif" style="width:100%;">
+    </a>
+    <a id="hdgg-right-tixian-image" href="javascript:;" style="font-size:1rem;position:absolute;top:4rem;right:0.525rem;z-index:99;width:2.85rem;color:#eb3d01;">
+        <img src="images/tixian.png" style="width:100%;">
+        <div class="ti_xian" style="position: absolute;top:0.7rem;right:0rem;width:2.8rem;text-align:center;">
+            <span style="font-size:0.7rem" class="txMoney">198</span><span style="font-size:0.5rem">元</span>
+        </div>
+    </a>
+
+    <div class="to_chou">
+        <div class="to_chou_img"><span></span></div>
+        <div class="to_chouPrize"></div>
+        <div class="close-chou"></div>
+    </div>
+
+    <div class="to_tixian">
+        <div class="ti_xian_img"><span></span></div>
+        <div class="txImg"><img src="https://hdggcdn.bayimob.com/program/20190807/f9edcce5506f46a4a086ee825732bca7.gif"></div>
+        <div class="to_getMoney"></div>
+        <div class="close-tixian"></div>
+    </div>
+
+    <div class="prize_box">
+        <div class="jin_gif">
+            <div style="display: none;"><span class="third"></span><span>元</span></div>
+        </div>
+    </div>
+
+    <div id="hdgg-record-page" style="display: none;" class="m-transition-dom">
+        <div class="hd_ad_hd">
+            <div class="hd_ad_back">返回</div>
+            <p>我的奖品</p>
+        </div>
+        <div id="someMedia" style="overflow:auto">
+            <div class="hd_ad_list">      
+            <a href="javascript:;" data-url="http://feidian18.cn/mall/yhzj.htm?gzid=&amp;appkey=a0ce878c3e5a1889710b0e371fbb08f8&amp;adSpaceKey=8afa33707640aafaf9a045b2d6da0e36&amp;doumobkey=eahOsspsyonHPdCZ4l%2FJmw%3D%3D&amp;gamename=%25E7%258B%2582%25E6%25AC%25A2%25E7%25BA%25A2%25E5%258C%2585%25E6%259D%25A5%25E8%25A2%25AD%25E5%25A4%258D%25E7%2594%25A8%25EF%25BC%2588%25E6%2596%25B0%25E6%258F%2592%25E4%25BB%25B6%25EF%25BC%2589&amp;uid=626170588750692352&amp;sessionId=NrAq0Nw739&amp;advId=7018&amp;province=&amp;mobileSystem=0&amp;dkey=5d8a2128f10c572fd4c143d7&amp;advMaterialId=80025&amp;gamePath=static%2Fchehongbao8&amp;t=1569333553358" data-doumobkey="eahOsspsyonHPdCZ4l/Jmw==" data-receiveid="undefined" data-type="hdgg">
+                <div class="hd_time">2019-09-24 21:59:04</div>
+                <img src="https://hdggcdn.bayimob.com/program/20190823/3dc7caacbbad45f880784a310b260bdf.gif">
+                <p class="hd_ad_title">中国梦洋河镇</p>
+                <p>免费领取洋河镇蓝色经典一箱</p>
+                <div class="hd_ad_tip">已中奖</div>
+                <div class="hd_ad_lingjiang">查看</div>
+            </a>  
+            
+            <a href="javascript:;" data-url="http://www.lnkdata.com/UrlCenter/Osh?menu_id=600003&amp;plid=1836&amp;&amp;appkey=a0ce878c3e5a1889710b0e371fbb08f8&amp;adSpaceKey=8afa33707640aafaf9a045b2d6da0e36&amp;doumobkey=RyQq4oKUXpltSSzBYqM72w%3D%3D&amp;gamename=%25E7%258B%2582%25E6%25AC%25A2%25E7%25BA%25A2%25E5%258C%2585%25E6%259D%25A5%25E8%25A2%25AD%25E5%25A4%258D%25E7%2594%25A8%25EF%25BC%2588%25E6%2596%25B0%25E6%258F%2592%25E4%25BB%25B6%25EF%25BC%2589&amp;uid=626170588750692352&amp;sessionId=bIlkmGppDR&amp;advId=7956&amp;province=&amp;mobileSystem=0&amp;dkey=5d8a1f0735ebd816c78588ba&amp;advMaterialId=83783&amp;gamePath=static%2Fchehongbao8&amp;t=1569333007969" data-doumobkey="RyQq4oKUXpltSSzBYqM72w==" data-receiveid="undefined" data-type="hdgg">
+                <div class="hd_time">2019-09-24 21:49:59</div>
+                <img src="https://hdggcdn.bayimob.com/program/20190924/34f53ac1ab2444f7b2d1fb8d4c91d4af.gif">
+                <p class="hd_ad_title">恭喜获得20元购物券</p>
+                <p>更多好物限时抢</p>
+                <div class="hd_ad_tip">已中奖</div>
+                <div class="hd_ad_lingjiang">查看</div>
+            </a>  
+            
+            <a href="javascript:;" data-url="https://www.ybnxf.cn/index/index?prod=nfcv55tzkp&amp;source=501&amp;appkey=a0ce878c3e5a1889710b0e371fbb08f8&amp;adSpaceKey=8afa33707640aafaf9a045b2d6da0e36&amp;doumobkey=%2F%2FZnJF%2Bjyd1ZHvBNF%2BZaNA%3D%3D&amp;gamename=%25E7%258B%2582%25E6%25AC%25A2%25E7%25BA%25A2%25E5%258C%2585%25E6%259D%25A5%25E8%25A2%25AD%25E5%25A4%258D%25E7%2594%25A8%25EF%25BC%2588%25E6%2596%25B0%25E6%258F%2592%25E4%25BB%25B6%25EF%25BC%2589&amp;uid=626170588750692352&amp;sessionId=bIlkmGppDR&amp;advId=7858&amp;province=&amp;mobileSystem=0&amp;dkey=5d8a1ea8e8e244242bf6885a&amp;advMaterialId=83793&amp;gamePath=static%2Fchehongbao8&amp;t=1569332912726" data-doumobkey="//ZnJF+jyd1ZHvBNF+ZaNA==" data-receiveid="undefined" data-type="hdgg">
+                <div class="hd_time">2019-09-24 21:48:24</div>
+                <img src="https://hdggcdn.bayimob.com/program/20190924/2dc0affe07ca48339d653df0b3454755.gif">
+                <p class="hd_ad_title">恭喜你获得了对戒套装</p>
+                <p>恭喜你！数量有限，先到先得</p>
+                <div class="hd_ad_tip">已中奖</div>
+                <div class="hd_ad_lingjiang">查看</div>
+            </a>  
+            
+            <a href="javascript:;" data-url="https://tg.yidecard.com/huaerjie/index_8_dm.html?source=C2&amp;appkey=a0ce878c3e5a1889710b0e371fbb08f8&amp;adSpaceKey=8afa33707640aafaf9a045b2d6da0e36&amp;doumobkey=7q9mY5q1KEy3nW0qE3Eu0A%3D%3D&amp;gamename=%25E7%258B%2582%25E6%25AC%25A2%25E7%25BA%25A2%25E5%258C%2585%25E6%259D%25A5%25E8%25A2%25AD%25E5%25A4%258D%25E7%2594%25A8%25EF%25BC%2588%25E6%2596%25B0%25E6%258F%2592%25E4%25BB%25B6%25EF%25BC%2589&amp;uid=626170588750692352&amp;sessionId=bIlkmGppDR&amp;advId=7879&amp;province=&amp;mobileSystem=0&amp;dkey=5d8a1d2397714b62e5e4ffcb&amp;advMaterialId=83136&amp;gamePath=static%2Fchehongbao8&amp;t=1569332523851" data-doumobkey="7q9mY5q1KEy3nW0qE3Eu0A==" data-receiveid="undefined" data-type="hdgg">
+                <div class="hd_time">2019-09-24 21:41:55</div>
+                <img src="https://hdggcdn.bayimob.com/program/20190919/10d3007ba8d74e4f99337f8cda4bac23.gif">
+                <p class="hd_ad_title">快速学会英语</p>
+                <p>恭喜获得1500元英语学习礼包</p>
+                <div class="hd_ad_tip">已中奖</div>
+                <div class="hd_ad_lingjiang">查看</div>
+            </a>  
+            
+            <a href="javascript:;" data-url="https://market.m.taobao.com/apps/abs/10/404/67fbd6?psId=2226192&amp;pageCode=wanhuatong1.1&amp;appkey=a0ce878c3e5a1889710b0e371fbb08f8&amp;adSpaceKey=8afa33707640aafaf9a045b2d6da0e36&amp;doumobkey=upYxcjwY1%2BKyAn1fKwhmtg%3D%3D&amp;gamename=%25E7%258B%2582%25E6%25AC%25A2%25E7%25BA%25A2%25E5%258C%2585%25E6%259D%25A5%25E8%25A2%25AD%25E5%25A4%258D%25E7%2594%25A8%25EF%25BC%2588%25E6%2596%25B0%25E6%258F%2592%25E4%25BB%25B6%25EF%25BC%2589&amp;uid=626170588750692352&amp;sessionId=bIlkmGppDR&amp;advId=7947&amp;province=&amp;mobileSystem=0&amp;dkey=5d8a1d0ce8e244242bf4caad&amp;advMaterialId=83573&amp;gamePath=static%2Fchehongbao8&amp;t=1569332500660" data-doumobkey="upYxcjwY1+KyAn1fKwhmtg==" data-receiveid="undefined" data-type="hdgg">
+                <div class="hd_time">2019-09-24 21:41:32</div>
+                <img src="https://hdggcdn.bayimob.com/program/20190923/78c394a2bfa744c3a1eb9e18a601e6b5.gif">
+                <p class="hd_ad_title">淘宝新人礼</p>
+                <p>淘宝新人礼！限时领取</p>
+                <div class="hd_ad_tip">已中奖</div>
+                <div class="hd_ad_lingjiang">查看</div>
+            </a>  
+            
+            <a href="javascript:;" data-url="https://maotai.zhijianhutong.com/baijiu/chengdu/fctc/fctc_doumeng/?appkey=a0ce878c3e5a1889710b0e371fbb08f8&amp;adSpaceKey=8afa33707640aafaf9a045b2d6da0e36&amp;doumobkey=mVHFgBFj8qwDU58LVQylig%3D%3D&amp;gamename=%25E7%258B%2582%25E6%25AC%25A2%25E7%25BA%25A2%25E5%258C%2585%25E6%259D%25A5%25E8%25A2%25AD%25E5%25A4%258D%25E7%2594%25A8%25EF%25BC%2588%25E6%2596%25B0%25E6%258F%2592%25E4%25BB%25B6%25EF%25BC%2589&amp;uid=626170588750692352&amp;sessionId=bIlkmGppDR&amp;advId=7129&amp;province=&amp;mobileSystem=0&amp;dkey=5d8a1cf3e8e244242bf4b091&amp;advMaterialId=78465&amp;gamePath=static%2Fchehongbao8&amp;t=1569332475900" data-doumobkey="mVHFgBFj8qwDU58LVQylig==" data-receiveid="undefined" data-type="hdgg">
+                <div class="hd_time">2019-09-24 21:41:07</div>
+                <img src="https://hdggcdn.bayimob.com/program/20190807/0c7e8ea37a394ddaba67944f22cb5d60.gif">
+                <p class="hd_ad_title">茅台酒免费领取</p>
+                <p>茅台封藏酒免费领取，仅限9月24日</p>
+                <div class="hd_ad_tip">已中奖</div>
+                <div class="hd_ad_lingjiang">查看</div>
+            </a>  
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html style="font-size: 23.04px;">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="Cache-Control" content="no-transform">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="layoutmode" content="standard">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="renderer" content="webkit">
+	<title>红包争夺战</title>
+
+	<style type="text/css">
+		#hdgg_record_button,
+		#hdgg-record-page,
+		#hdgg_show-win,
+		#hdgg_show-noad,
+		#hdgg_show-tomorrow,
+		#hdgg_rules-wrapper,
+		#hdgg_taobao,
+		#hdgg_miniprogram_popup {
+			font-size: 1rem;
+		}
+
+		#hdgg_redpack {
+			font-size: 1.2rem;
+		}
+	</style>
+</head>
+
+<body style="position: relative">
+	<div class="zhezhao" style="display: none;">
+		<div class="logText"></div>
+		<div class="clickGo"></div>
+	</div>
+
+	<div class="bodydiv" id="web">
+		<div class="rule"></div>
+		<div class="person personDown" style="left: 9rem; top: 12.5rem;"></div>
+		<div class="baoshi"></div>
+		<div class="feng"></div>
+		<div class="hongbao"></div>
+		<div class="baoxiang"></div>
+		<div class="baoxiang1"></div>
+		<div class="fudai"></div>
+		<div class="zhadan"></div>
+		<div class="youhui"></div>
+		<div class="feiji"></div>
+		<div class="shaizi" style="background-image: url(&quot;https://hdggcdn.bayimob.com/hdggstatic/lists5/2.png&quot;);"></div>
+		<div class="rule"></div>
+		<div class="jiang"></div>
+		<div class="bossWin"></div>
+		<div class="counts">剩余次数:
+			<span id="countZa">10</span>次</div>
+
+		<!-- Swiper JS -->
+		<div class="alerty" style="z-index: 100;">
+			<div class="notice">
+				<div class="saclose"></div>
+				<h1 class="ntile1"></h1>
+				<div class="contant">
+					<h1 class="title font14">活动说明：</h1>
+					<p class="font14">参与活动即有机会获得幸运奖~每天抽奖机会12次免费。此活动为概率中奖，奖品数量有限，祝好运！</p>
+					<p>惊喜一：500元红包</p>
+					<p>惊喜二：300元红包</p>
+					<p>惊喜三：200元红包</p>
+					<p>惊喜四：随机红包</p>
+					<p>惊喜五：幸运福袋</p>
+					<h1 class="title font14">重要声明：</h1>
+					<p>1.奖品将在活动结束后5-10个工作日安排发放,请耐心等待</p>
+					<p>2.优惠券类奖品的使用规则详见每个优惠券的介绍页</p>
+					<p>3.通过非法途径获得奖品的,主办方有权不提供奖品</p>
+					<div class="moresay">中奖概率说明
+						<i></i>
+					</div>
+					<div class="moresayp">
+						<p>•500元红包共1份，中奖概率0.001%; </p>
+						<p>•300元红包共2份,中奖概率0.002%; </p>
+						<p>•200元红包共3份,中奖概率0.003%; </p>
+						<p>•随机红包共20份,中奖概率0.02%; </p>
+						<p>•幸运福袋,中奖概率99.974%; </p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="zhenotice"></div>
+	</div>
+
+	<link rel="stylesheet" type="text/css" href="./css/reset.css">
+	<!-- <link rel="stylesheet" href="css/swiper.min.css"> -->
+	<link rel="stylesheet" type="text/css" href="./css/alertCommon.css">
+	<link rel="stylesheet" type="text/css" href="./css/common.css">
+	<script type="text/javascript" async="" src="./js/analytics.js"></script>
+	<!-- <script type="text/javascript" async="" charset="utf-8" src="./红包争夺战_files/core.php"></script> -->
+	<script type="text/javascript" async="" src="./js/vds.js"></script>
+	<script src="./js/hm.js"></script>
+	<!-- <script src="./红包争夺战_files/hm(1).js"></script> -->
+	<!-- <script src="./红包争夺战_files/hm(2).js"></script> -->
+	<!-- <script src="./红包争夺战_files/hm(3).js"></script> -->
+	<!-- <script async="" src="./红包争夺战_files/js"></script> -->
+	<!-- <script async="" src="./红包争夺战_files/js(1)"></script> -->
+	<!-- <script src="./红包争夺战_files/hm(4).js"></script> -->
+	<!-- <script src="./红包争夺战_files/z_stat.php"></script> -->
+	<!-- <script src="./红包争夺战_files/hm(5).js"></script> -->
+	<script type="text/javascript" src="./js/jquery-2.1.4.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="./css/hdgg.css">
+	<script type="text/javascript" charset="utf-8" src="./js/hdgg.js"></script>
+	<!-- <script type="text/javascript" src="js/awardRotate.js"></script> -->
+	<!-- <script src="js/swiper.min.js"></script> -->
+
+	<script type="text/javascript" src="./js/common.js"></script>
+
+	<a id="hdgg-right-tixian-image" href="javascript:;" style="font-size:1rem;position:absolute;top:4rem;right:0.525rem;z-index:99;width:2.85rem;color:#eb3d01;">
+		<img src="./images/tixian.png" style="width:100%;">
+		<div class="ti_xian" style="position: absolute;top:0.7rem;right:0rem;width:2.8rem;text-align:center;">
+			<span style="font-size:0.7rem" class="txMoney">14.97</span>
+			<span style="font-size:0.5rem">元</span>
+		</div>
+	</a>
+	<div class="to_chou">
+		<div class="to_chou_img">
+			<span></span>
+		</div>
+		<div class="to_chouPrize"></div>
+		<div class="close-chou"></div>
+	</div>
+
+	<div class="to_tixian">
+		<div class="ti_xian_img">
+			<span></span>
+		</div>
+		<div class="txImg">
+			<img src="./images/fda8492f9e1940b6b887688bef6bf2ad.gif">
+		</div>
+		<div class="to_getMoney"></div>
+		<div class="close-tixian"></div>
+	</div>
+	<div class="prize_box">
+		<div class="jin_gif">
+			<div style="display: none;">
+				<span class="third"></span>
+				<span>元</span>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
